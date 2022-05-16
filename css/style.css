@@ -21,40 +21,54 @@ h1 {
   font-size: 2.75em;
   font-weight: 600;
 }
+
 h2 {
   font-size: 2.75em;
   font-weight: 600;
 }
+
 h3 {
   font-size: 1.75em;
   font-weight: 300;
 }
+
 h4 {
   font-size: 1.35em;
   font-weight: 300;
 }
+
 img {
   width: 100%;
 }
+
 a {
   color:#086788;
   text-decoration: none; /*no underlining*/
 }
+
 a:hover {
   color: #3F3047;
   text-decoration: underline; /*underlining when hovering over link */
 }
+
 a:visited { /*visited link*/
   color: #3F3047;
 }
+
 a:active { /*selected link*/
   color: #086788;
 }
+
 a:hover,
 a:focus {
   color: #3F3047;
   text-decoration: underline;
 }
+
+a.button { /*selected link*/
+  color: #FFFFFF;
+}
+
 .button {
   display: inline-block;
   background-color: #086788;
@@ -65,19 +79,23 @@ a:focus {
   border-bottom: 2px solid #086788;
   transition: 0.2s opacity;
 }
+
 .button:hover {
   opacity: .8;
   text-decoration: none;
 }
+
 .button:active {
   color: #3F3047;
 }
+
 .button.contact {
   background-color: transparent;
   color: #086788;
   text-transform: uppercase;
   border: 2px solid #086788;
 }
+
 .button.contact:hover {
   background-color: #086788;
   color: #FFFFFF;
