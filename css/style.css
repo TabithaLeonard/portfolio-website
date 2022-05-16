@@ -73,13 +73,12 @@ a:focus {
   color: #3F3047;
 }
 .button.contact {
-  background-color: #086788;
-  color: #FFFFFF;
+  background-color: transparent;
+  color: #086788;
   text-transform: uppercase;
   border: 2px solid #086788;
 }
 .button.contact:hover {
-  background-color: #3F3047;
+  background-color: #086788;
   color: #FFFFFF;
-  border: 2px solid #3F3047;
 }
