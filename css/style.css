@@ -52,7 +52,7 @@ a:active { /*selected link*/
 }
 a:hover,
 a:focus {
-  color: #5EC2B7;
+  color: #3F3047;
   text-decoration: underline;
 }
 .button {
@@ -64,4 +64,22 @@ a:focus {
   border-radius: 3px;
   border-bottom: 2px solid #086788;
   transition: 0.2s opacity;
+}
+.button:hover {
+  opacity: .8;
+  text-decoration: none;
+}
+.button:active {
+  color: #3F3047;
+}
+.button.contact {
+  background-color: #086788;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  border: 2px solid #086788;
+}
+.button.contact:hover {
+  background-color: #3F3047;
+  color: #FFFFFF;
+  border: 2px solid #3F3047;
 }
