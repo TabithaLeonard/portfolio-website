@@ -55,3 +55,13 @@ a:focus {
   color: #5EC2B7;
   text-decoration: underline;
 }
+.button {
+  display: inline-block;
+  background-color: #086788;
+  color: #FFFFFF;
+  font-weight: 300;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #086788;
+  transition: 0.2s opacity;
+}
