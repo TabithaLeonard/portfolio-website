@@ -50,3 +50,8 @@ a:visited { /*visited link*/
 a:active { /*selected link*/
   color: #086788;
 }
+a:hover,
+a:focus {
+  color: #5EC2B7;
+  text-decoration: underline;
+}
