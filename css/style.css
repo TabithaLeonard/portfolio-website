@@ -5,6 +5,17 @@ Main Text: #086788;
 Accent for Text & Graphics: #3F3047;
 */
 
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #086788;
+  padding: 10px 5px 15px 5px;
+  margin: 10px;
+  border-bottom: 3px solid #086788;
+}
+
 body {
   background-color: #FFFFFF;
   font-family: 'Raleway', sans-serif;
