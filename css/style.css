@@ -5,10 +5,6 @@ Main Text: #086788;
 Accent for Text & Graphics: #3F3047;
 */
 
-* {
-  box-sizing: border-box;
-}
-
 header {
   background-color: #086788;
   padding: 10px 5px 15px 5px;
@@ -110,4 +106,10 @@ a.button { /*selected link*/
 .button.contact:hover {
   background-color: #086788;
   color: #FFFFFF;
+}
+
+/* Layout Styling */
+
+.container {
+  padding: 0 15px;
 }
