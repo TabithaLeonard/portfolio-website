@@ -8,7 +8,6 @@ Accent for Text & Graphics: #3F3047;
 header {
   background-color: #086788;
   padding: 10px 5px 15px 5px;
-  margin: 10px;
   border-bottom: 3px solid #086788;
 }
 
@@ -116,4 +115,12 @@ a.button { /*selected link*/
 
 .row {
   margin: 25px 0;
+}
+
+#hero h1 {
+  text-align: center;
+}
+
+#work h2 {
+  text-align: center;
 }
