@@ -102,7 +102,19 @@ a.button { /*selected link*/
   color: #FFFFFF;
 }
 
+
 /* Layout Styling */
+
+.container {
+  padding: 0 15px;
+  width: 100%;
+}
+
+.row {
+  margin: 25px 0;
+}
+
+/* Header Section */
 
 header {
   position: fixed;
@@ -116,11 +128,9 @@ header {
   box-shadow: -1px 7px 11px 0px rgba(50, 50, 50, 0.75);
 }
 
-.container {
-  padding: 0 15px;
-  width: 100%;
+/* Hero Section */
+
+#hero h1 {
+  text-align: center;
 }
 
-.row {
-  margin: 25px 0;
-}
