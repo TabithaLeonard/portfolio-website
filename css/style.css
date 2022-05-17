@@ -5,6 +5,10 @@ Main Text: #086788;
 Accent Text: #856895;
 */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #ffffff;
   font-family: 'Raleway', sans-serif;
@@ -87,4 +91,10 @@ a.button{
   background-color: #086788;
   color: #ffffff;
   border: 2px solid #086788;
+}
+
+/* Layout styling */
+
+.container {
+  padding: 0 15px;
 }
