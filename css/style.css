@@ -121,6 +121,10 @@ a.button { /*selected link*/
   text-align: center;
 }
 
-#work h2 {
+#projects h2 {
   text-align: center;
+}
+
+.logo {
+  max-width: 250px;
 }
