@@ -1,136 +1,15 @@
 /*
 Colors used:
-Background: #FFFFFF;
+Background: #FDF7F3;
+Accent: #5EC2B7;
 Main Text: #086788;
 Accent for Text & Graphics: #3F3047;
 */
 
-* {
-  box-sizing: border-box;
+body {
+  background-color: #FDF7F3;
 }
 
 body {
-  background-color: #FFFFFF;
   font-family: 'Raleway', sans-serif;
-  font-size: 16px; /*sets the font size to 16px */
-  font-weight: 400;
-  line-height: 1.6;
-  color: #086788;
-  width: 100%;
 }
-
-h1, h2, h3, h4 {
-  line-height: 1.4;
-}
-h1 {
-  font-size: 2.75em;
-  font-weight: 600;
-}
-
-h2 {
-  font-size: 2.75em;
-  font-weight: 600;
-}
-
-h3 {
-  font-size: 1.75em;
-  font-weight: 300;
-}
-
-h4 {
-  font-size: 1.35em;
-  font-weight: 300;
-}
-
-a {
-  color:#086788;
-  text-decoration: none; /*no underlining*/
-}
-
-a:hover {
-  color: #3F3047;
-  text-decoration: underline; /*underlining when hovering over link */
-}
-
-a:visited { /*visited link*/
-  color: #3F3047;
-}
-
-a:active { /*selected link*/
-  color: #086788;
-}
-
-a:hover,
-a:focus {
-  color: #3F3047;
-  text-decoration: underline;
-}
-
-a.button { /*selected link*/
-  color: #FFFFFF;
-}
-
-.button {
-  display: inline-block;
-  background-color: #086788;
-  color: #FFFFFF;
-  font-weight: 300;
-  padding: 10px;
-  border-radius: 3px;
-  border-bottom: 2px solid #086788;
-  transition: 0.2s opacity;
-}
-
-.button:hover {
-  opacity: .8;
-  text-decoration: none;
-}
-
-.button:active {
-  color: #3F3047;
-}
-
-.button.contact {
-  background-color: transparent;
-  color: #086788;
-  text-transform: uppercase;
-  border: 2px solid #086788;
-}
-
-.button.contact:hover {
-  background-color: #086788;
-  color: #FFFFFF;
-}
-
-
-/* Layout Styling */
-
-.container {
-  padding: 0 15px;
-  width: 100%;
-}
-
-.row {
-  margin: 25px 0;
-}
-
-/* Header Section */
-
-header {
-  position: fixed;
-  width: 100%;
-  background-color: #086788;
-  text-align: center;
-  padding: 10px 5px 15px 5px;
-  border-bottom: 3px solid #086788;
-  -webkit-box-shadow: -1px 7px 11px 0px rgba(50, 50, 50, 0.75);
-  -moz-box-shadow:    -1px 7px 11px 0px rgba(50, 50, 50, 0.75);
-  box-shadow: -1px 7px 11px 0px rgba(50, 50, 50, 0.75);
-}
-
-/* Hero Section */
-
-#hero h1 {
-  text-align: center;
-}
-
