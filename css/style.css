@@ -1,15 +1,90 @@
 /*
 Colors used:
-Background: #FDF7F3;
-Accent: #5EC2B7;
+Background: #FFFFFF;
 Main Text: #086788;
-Accent for Text & Graphics: #3F3047;
+Accent Text: #856895;
 */
 
 body {
-  background-color: #FDF7F3;
+  background-color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.6;
+  color: #086788;
+}
+h1, h2, h3, h4 {
+  line-height: 1.4;
+}
+h1 {
+  font-size: 2.75em;
+  font-weight: 700;
+}
+h2 {
+  font-size: 2.25em;
+  font-weight: 700;
+}
+h3 {
+  font-size: 1.75em;
+  font-weight: 400;
+}
+h4 {
+  font-size: 1.35em;
+  font-weight: 400;
 }
 
-body {
-  font-family: 'Raleway', sans-serif;
+/* img optimization */
+
+img {
+  width: 100%;
+}
+
+/* Button & hyperlink styling */
+
+a {
+  color: #086788;
+  text-decoration: none;
+}
+a:hover {
+  color: #3f3047;
+}
+a:visited {
+  color: #3f3047;
+}
+a:active {
+  color: #086788;
+}
+a:hover, a:focus {
+  color: #3f3047;
+}
+a.button{
+  color: #ffffff;
+}
+.button {
+  display: inline-block;
+  background-color: #086788;
+  color: #ffffff;
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #086788;
+  transition: .2s opacity;
+}
+.button:hover {
+  opacity: .8;
+  text-decoration: none;
+}
+.button:active {
+  color:#3f3047;
+}
+.button.contact {
+  background-color: transparent;
+  color: #086788;
+  text-transform: uppercase;
+  border: 2px solid #086788;
+}
+.button.contact:hover {
+  background-color: #086788;
+  color: #ffffff;
+  border: 2px solid #086788;
 }
