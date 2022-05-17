@@ -98,3 +98,7 @@ a.button{
 .container {
   padding: 0 15px;
 }
+
+.row {
+  margin: 25px 0;
+}
