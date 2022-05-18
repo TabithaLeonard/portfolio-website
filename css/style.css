@@ -193,3 +193,36 @@ nav > ul > li > a {
   font-weight: 200;
   color: #AB5852;
 }
+
+/* Money Buddy Layout */
+/* Colors used:
+Background: #FFFFFF;
+Sub Header: #B33C86;
+Header: #800059;
+Main text: #000000;
+*/
+
+#moneybuddy {
+  background-color: #ffffff;
+  font-family: 'nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.6;
+  color:#000000;
+}
+#moneybuddy h1 {
+  font-weight: 600;
+  color: #800059;
+}
+#moneybuddy h2 {
+  font-weight: 500;
+  color: #800059;
+}
+#moneybuddy h3 {
+  font-weight: 500;
+  color: #b33c86;
+}
+#moneybuddy h4 {
+  font-weight: 700;
+  color: #b33c86;
+}
