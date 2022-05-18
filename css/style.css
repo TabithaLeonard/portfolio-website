@@ -167,3 +167,29 @@ nav > ul > li > a {
   font-family: 'lora', serif;
   font-weight: 500;
 }
+
+/* Chic Threads Layout */
+
+#chicthreads {
+  background-color: #ffffff;
+  font-family: 'fira', sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 1.6;
+  color:#4A6369;
+}
+#chicthreads h1 {
+  font-family: 'fira sans', sans-serif;
+  font-weight: 600;
+  color: #4A6369;
+}
+#chicthreads h2 {
+  font-family: 'fira sans', sans-serif;
+  font-weight: 500;
+  color: #4A6369;
+}
+#chicthreads h3 {
+  font-family: 'fira sans', sans-serif;
+  font-weight: 200;
+  color: #AB5852;
+}
