@@ -53,7 +53,7 @@ a:hover {
   color: #3f3047;
 }
 a:visited {
-  color: #ffffff;
+  color: #3f3047;
 }
 a:active {
   color: #ffffff;
@@ -116,3 +116,9 @@ header {
   max-width: 250px;
 }
 
+nav > ul {
+  list-style-type: none;
+}
+nav > ul > li {
+  display: inline-block;
+}
