@@ -53,7 +53,7 @@ a:hover {
   color: #3f3047;
 }
 a:visited {
-  color: #3f3047;
+  color: #ffffff;
 }
 a:active {
   color: #ffffff;
@@ -94,7 +94,7 @@ a.button{
 }
 
 header {
-  background-color: #FDF7F3;
+  background-color: #086788;
   text-align: center;
   padding: 10px 0;
 }
@@ -117,8 +117,17 @@ header {
 }
 
 nav > ul {
+  padding: 0;
+  width: 100%;
   list-style-type: none;
 }
 nav > ul > li {
+  margin: 0;
   display: inline-block;
+}
+nav > ul > li > a {
+  padding: 0px 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #ffffff;
 }
