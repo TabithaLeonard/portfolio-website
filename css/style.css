@@ -226,3 +226,41 @@ Main text: #000000;
   font-weight: 700;
   color: #b33c86;
 }
+
+/* Lets Expat Layout */
+/* Colors used:
+Background: #FFFFFF;
+Sub Header semi-bold 600: #103049;
+Header medium 500: #103049;
+sub-title medium 500: 3E5975
+Main text regular 300: #3E5975;
+*/
+
+.icons {
+  width: 100px;
+}
+
+#letsexpat {
+  background-color: #ffffff;
+  font-family: 'fira sans', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.6;
+  color:#3E5975;
+}
+#letsexpat h1 {
+  font-weight: 600;
+  color: #103049;
+}
+#letsexpat h2 {
+  font-weight: 500;
+  color: #103049;
+}
+#letsexpat h3 {
+  font-weight: 500;
+  color: #3E5975;
+}
+#letsexpat h4 {
+  font-weight: 400;
+  color: #3E5975;
+}
