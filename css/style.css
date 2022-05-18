@@ -97,6 +97,14 @@ header {
   background-color: #086788;
   text-align: center;
   padding: 10px 0;
+  -webkit-box-shadow: -1px 5px 7px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    -1px 5px 7px 0px rgba(50, 50, 50, 0.75);
+  box-shadow:         -1px 5px 7px 0px rgba(50, 50, 50, 0.75);
+  position: fixed;
+  width: 100%;
+}
+main {
+  padding-top: 175px;
 }
 /* Layout styling */
 
