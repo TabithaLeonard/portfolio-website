@@ -53,10 +53,10 @@ a:hover {
   color: #3f3047;
 }
 a:visited {
-  color: #3f3047;
+  color: #ffffff;
 }
 a:active {
-  color: #086788;
+  color: #ffffff;
 }
 a:hover, a:focus {
   color: #3f3047;
@@ -93,6 +93,11 @@ a.button{
   border: 2px solid #086788;
 }
 
+header {
+  background-color: #FDF7F3;
+  text-align: center;
+  padding: 10px 0;
+}
 /* Layout styling */
 
 .container {
@@ -105,5 +110,9 @@ a.button{
 
 #hero h1 {
   text-align: center;
+}
+
+.logo {
+  max-width: 250px;
 }
 
