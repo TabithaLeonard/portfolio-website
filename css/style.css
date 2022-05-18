@@ -139,6 +139,10 @@ main {
   max-width: 250px;
 }
 
+.icons {
+  width: 100px;
+}
+
 nav > ul {
   padding: 0;
   width: 100%;
@@ -235,10 +239,6 @@ Header medium 500: #103049;
 sub-title medium 500: 3E5975
 Main text regular 300: #3E5975;
 */
-
-.icons {
-  width: 100px;
-}
 
 #letsexpat {
   background-color: #ffffff;
