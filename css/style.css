@@ -118,8 +118,23 @@ main {
 
 #hero h1 {
   text-align: center;
+  font-family: 'lora', serif;
+  font-style: italic;
+  font-weight: 600;
 }
 
+#projects h2 {
+  text-align: center;
+  font-family: 'lora', serif;
+  font-weight: 500;
+}
+
+#contact h2 {
+  text-align: center;
+  font-family: 'lora', serif;
+  font-style: italic;
+  font-weight: 600;
+}
 .logo {
   max-width: 250px;
 }
@@ -138,4 +153,17 @@ nav > ul > li > a {
   text-transform: uppercase;
   font-weight: 500;
   color: #ffffff;
+}
+
+/* About Section layout */
+
+#about h1 {
+  text-align: center;
+  font-family: 'lora', serif;
+  font-weight: 600;
+}
+#story h2 {
+  text-align: center;
+  font-family: 'lora', serif;
+  font-weight: 500;
 }
