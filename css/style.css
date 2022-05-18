@@ -102,3 +102,8 @@ a.button{
 .row {
   margin: 25px 0;
 }
+
+#hero h1 {
+  text-align: center;
+}
+
