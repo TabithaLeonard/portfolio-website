@@ -136,12 +136,16 @@ main {
   font-weight: 600;
 }
 .logo {
-  max-width: 250px;
+  max-width: 150px;
   max-height: 100px;
 }
 
 .icons {
-  width: 100px;
+  width: 50px;
+}
+
+.icons2 {
+  width: 75px;
 }
 
 nav > ul {
@@ -264,4 +268,67 @@ Main text regular 300: #3E5975;
 #letsexpat h4 {
   font-weight: 400;
   color: #3E5975;
+}
+.letsexpatlogo {
+  width: 150px;
+}
+.letsexpatlogo2 {
+  width: 200px;
+}
+
+/* == Medium devices (640px and Larger) == */
+
+@media only screen and (min-width: 640px) {
+
+  header {
+    text-align: unset;
+  }
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 25px;
+  }
+  body {
+    font-size: 18px;
+  }
+  main {
+    padding-top: 150px;
+  }
+  #hero {
+    text-align: center;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-3 {
+    width: 33.3%;
+  }
+  [class*="col-"] {
+    float: left;
+    padding: 10px;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+}
+
+/* == large devices (1024px or larger) == */
+
+@media only screen and (min-width: 1024px) {
+  
+}
+
+/* == x-large devices (1440px or larger) == */
+
+@media only screen and (min-width: 1440px) {
+
+}
+
+/* == Extra-large devices (1441px or larger) == */
+
+@media only screen and (min-width: 1920px) {
+
 }
