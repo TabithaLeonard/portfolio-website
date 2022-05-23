@@ -388,13 +388,54 @@ Main text regular 300: #3E5975;
     clear: both;
     display: table;
   }
-
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 /* == large devices (1024px or larger) == */
 
 @media only screen and (min-width: 1024px) {
   
+  header {
+    text-align: unset;
+    font-size: 18px;
+  }
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 25px;
+  }
+  body {
+    font-size: 21px;
+  }
+  main {
+    padding-top: 150px;
+  }
+  #hero {
+    text-align: center;
+  }
+  .col-lg-7 {
+    width: 60%;
+  }
+  .col-lg-5 {
+    width: 40%;
+  }
+  .col-lg-3{
+    width: 33.3%;
+  }
+  [class*="col-"] {
+    float: left;
+    padding: 0px;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
 }
 
 /* == x-large devices (1440px or larger) == */
