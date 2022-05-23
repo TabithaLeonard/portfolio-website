@@ -428,7 +428,7 @@ Main text regular 300: #3E5975;
   }
   [class*="col-"] {
     float: left;
-    padding: 0px;
+    padding: 25px;
   }
   .row::after {
     content: "";
