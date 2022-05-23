@@ -388,11 +388,6 @@ Main text regular 300: #3E5975;
     clear: both;
     display: table;
   }
-  .container {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-  }
 }
 
 /* == large devices (1024px or larger) == */
@@ -435,7 +430,11 @@ Main text regular 300: #3E5975;
     clear: both;
     display: table;
   }
-
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 /* == x-large devices (1440px or larger) == */
