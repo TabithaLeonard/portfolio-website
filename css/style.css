@@ -275,6 +275,82 @@ Main text regular 300: #3E5975;
 .letsexpatlogo2 {
   width: 200px;
 }
+#ideationbackground {
+  background-color: #103049;
+  font-family: 'fira sans', sans-serif;
+  color: #ffffff;
+}
+#usertestingbackground {
+  background-color: #256869;
+  font-family: 'fira sans', sans-serif;
+  color: #ffffff;
+}
+#ideationbackground h1 {
+  font-weight: 600;
+  color: #ffffff;
+}
+#ideationbackground h3 {
+  font-weight: 500;
+  color: #ffffff;
+}
+#usertestingbackground h1 {
+  font-weight: 600;
+  color: #ffffff;
+}
+#usertestingbackground h3 {
+  font-weight: 500;
+  color: #ffffff;
+}
+#onboarding {
+  background-color: #86C7C8;
+  font-family: 'fira sans', sans-serif;
+  text-align: end;
+  color: #103049;
+}
+#onboarding h3 {
+  font-weight: 500;
+  color: #103049;
+}
+#home {
+  background-color: #3E5975;
+  font-family: 'fira sans', sans-serif;
+  text-align: center;
+  color: #ffffff;
+}
+#home h3 {
+  font-weight: 500;
+  color: #ffffff;
+}
+#search {
+  background-color: #103049;
+  font-family: 'fira sans', sans-serif;
+  color: #ffffff;
+  text-align: center;
+}
+#search h3 {
+  font-weight: 500;
+  color: #ffffff;
+}
+#visa {
+  background-color: #86C7C8;
+  font-family: 'fira sans', sans-serif;
+  text-align: start;
+  color: #103049;
+}
+#visa h3 {
+  font-weight: 500;
+  color: #103049;
+}
+#events {
+  background-color: #3E5975;
+  font-family: 'fira sans', sans-serif;
+  text-align: center;
+  color: #ffffff;
+}
+#events h3 {
+  font-weight: 500;
+  color: #ffffff;
+}
 
 /* == Medium devices (640px and Larger) == */
 
