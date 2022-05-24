@@ -47,9 +47,6 @@ img {
   width: 100%;
 }
 
-svg{
-  max-width: 40px;
-}
 /* Button & hyperlink styling */
 
 a {
@@ -93,6 +90,7 @@ a.button{
   color: #ffffff;
   text-transform: uppercase;
   border: 2px solid #ffffff;
+  margin-bottom: 15px;
 }
 .button.contact:hover {
   background-color: #3f3047;
