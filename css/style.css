@@ -9,6 +9,10 @@ Accent Text: #856895;
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #ffffff;
   font-family: 'Raleway', sans-serif;
@@ -43,6 +47,9 @@ img {
   width: 100%;
 }
 
+svg{
+  max-width: 40px;
+}
 /* Button & hyperlink styling */
 
 a {
@@ -83,14 +90,14 @@ a.button{
 }
 .button.contact {
   background-color: transparent;
-  color: #086788;
+  color: #ffffff;
   text-transform: uppercase;
-  border: 2px solid #086788;
+  border: 2px solid #ffffff;
 }
 .button.contact:hover {
-  background-color: #086788;
+  background-color: #3f3047;
   color: #ffffff;
-  border: 2px solid #086788;
+  border: 2px solid #3f3047;
 }
 
 header {
@@ -130,11 +137,42 @@ main {
 }
 
 #contact h2 {
+  background-color: #086788;
+  color: #ffffff;
   text-align: center;
   font-family: 'lora', serif;
   font-style: italic;
   font-weight: 600;
 }
+#contact {
+  background-color: #086788;
+  color: #ffffff;
+  text-align: center;
+}
+#contact a {
+  color: #ffffff;
+  text-decoration: none;
+}
+#contact a:hover {
+  color: #3f3047;
+}
+#contact a:visited {
+  color: #ffffff;
+}
+#contact a:active {
+  color: #ffffff;
+}
+#contact a:hover, a:focus {
+  color: #ffffff;
+}
+#contact .phonenumber {
+  color: #ffffff;
+}
+
+#contact .phonenumber:hover {
+  color: #3f3047;
+}
+
 .logo {
   max-width: 150px;
   max-height: 100px;
@@ -163,6 +201,7 @@ nav > ul > li > a {
   font-weight: 500;
   color: #ffffff;
 }
+
 
 /* About Section layout */
 
