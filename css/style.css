@@ -137,15 +137,17 @@ main {
 #contact h2 {
   background-color: #086788;
   color: #ffffff;
-  text-align: center;
+  text-align: start;
   font-family: 'lora', serif;
   font-style: italic;
   font-weight: 600;
+  padding-top: 10px;
 }
+
 #contact {
   background-color: #086788;
   color: #ffffff;
-  text-align: center;
+  text-align: start;
 }
 #contact a {
   color: #ffffff;
