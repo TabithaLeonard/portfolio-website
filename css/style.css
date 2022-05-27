@@ -98,11 +98,9 @@ header {
   position: fixed;
   width: 100%;
 }
-
 main {
   padding-top: 250px;
 }
-
 nav > ul {
   padding: 0;
   width: 100%;
@@ -240,6 +238,9 @@ nav > ul > li > a {
   text-align: center;
   font-family: 'lora', serif;
   font-weight: 600;
+}
+#about {
+  margin-top: 100px;
 }
 #story h2 {
   text-align: center;
