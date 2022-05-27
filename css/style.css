@@ -91,7 +91,7 @@ header {
   background-color: #086788;
   font-size: 16px;
   text-align: center;
-  padding: 10px 15px;
+  padding: 10px 30px;
   -webkit-box-shadow: -1px 5px 7px 0px rgba(50, 50, 50, 0.75);
   -moz-box-shadow:    -1px 5px 7px 0px rgba(50, 50, 50, 0.75);
   box-shadow:         -1px 5px 7px 0px rgba(50, 50, 50, 0.75);
@@ -147,7 +147,7 @@ nav > ul > li > a {
   font-family: 'lora', serif;
   font-style: italic;
   font-weight: 600;
-  margin-top: 75px;
+  margin-top: 50px;
 }
 
 #projects h2 {
@@ -431,7 +431,6 @@ Main text regular 300: #3E5975;
   nav {
     width: auto;
     float: right;
-    margin-top: 25px;
   }
   body {
     font-size: 18px;
@@ -441,6 +440,7 @@ Main text regular 300: #3E5975;
   }
   #hero {
     text-align: start;
+    margin-top: 150px;
   }
   .col-md-6 {
     width: 50%;
@@ -491,7 +491,7 @@ Main text regular 300: #3E5975;
   nav {
     width: auto;
     float: right;
-    margin-top: 25px;
+    margin-top: 5px;
   }
   body {
     font-size: 21px;
