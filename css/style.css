@@ -132,6 +132,9 @@ nav > ul > li > a {
   border: 2px solid #3f3047;
 }
 
+/* end of header */
+
+
 /* Layout styling */
 
 .container {
@@ -154,6 +157,34 @@ nav > ul > li > a {
   font-family: 'lora', serif;
   font-weight: 500;
   margin-top: 100px;
+}
+
+
+/* Animation Css */
+
+@keyframes color-change {
+  0% {fill: #edc655;}
+  50% {fill: #fcffad;}
+  100% {fill: #f76414;}
+}
+.sun {
+  animation: 4s color-change infinite alternate linear;
+}
+
+@keyframes cloud-move {
+  from {transform: translate(0,50px);}
+  to {transform: translate(200px,50px);}
+}
+.cloud-front {
+  animation: 30s cloud-move infinite alternate linear;
+}
+
+@keyframes cloud-move-reverse {
+  from {transform: translate(446px,48px);}
+  to {transform: translate(100px, 48px);}
+}
+.cloud-back {
+  animation: 34s cloud-move-reverse infinite alternate linear;
 }
 
 
@@ -217,6 +248,7 @@ nav > ul > li > a {
 }
 /* End of Footer */
 
+
 /* Logo and Icons */
 
 .logo {
@@ -231,6 +263,7 @@ nav > ul > li > a {
 .icons2 {
   width: 75px;
 }
+
 
 /* About Section layout */
 
@@ -247,6 +280,7 @@ nav > ul > li > a {
   font-family: 'lora', serif;
   font-weight: 500;
 }
+
 
 /* Chic Threads Layout */
 
@@ -273,6 +307,7 @@ nav > ul > li > a {
   font-weight: 200;
   color: #AB5852;
 }
+
 
 /* Money Buddy Layout */
 /* Colors used:
@@ -306,6 +341,7 @@ Main text: #000000;
   font-weight: 700;
   color: #b33c86;
 }
+
 
 /* Lets Expat Layout */
 /* Colors used:
@@ -423,6 +459,8 @@ Main text regular 300: #3E5975;
   color: #ffffff;
 }
 
+
+
 /* == Medium devices (640px and Larger) == */
 
 @media only screen and (min-width: 640px) {
@@ -481,6 +519,7 @@ Main text regular 300: #3E5975;
     gap: 25px;
   }
 }
+
 
 /* == large devices (1024px or larger) == */
 
@@ -550,39 +589,16 @@ Main text regular 300: #3E5975;
   }
 }
 
+
 /* == x-large devices (1440px or larger) == */
 
 @media only screen and (min-width: 1440px) {
 
 }
 
+
 /* == Extra-large devices (1441px or larger) == */
 
 @media only screen and (min-width: 1920px) {
 
-}
-
-@keyframes color-change {
-  0% {fill: #edc655;}
-  50% {fill: #fcffad;}
-  100% {fill: #f76414;}
-}
-.sun {
-  animation: 4s color-change infinite alternate linear;
-}
-
-@keyframes cloud-move {
-  from {transform: translate(0,50px);}
-  to {transform: translate(200px,50px);}
-}
-.cloud-front {
-  animation: 30s cloud-move infinite alternate linear;
-}
-
-@keyframes cloud-move-reverse {
-  from {transform: translate(446px,48px);}
-  to {transform: translate(100px, 48px);}
-}
-.cloud-back {
-  animation: 34s cloud-move-reverse infinite alternate linear;
 }
