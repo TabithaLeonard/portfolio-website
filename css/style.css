@@ -526,6 +526,49 @@ Main text regular 300: #3E5975;
 @media only screen and (min-width: 1024px) {
   
   header {
+    background-color: #086788;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px 30px;
+    -webkit-box-shadow: -1px 5px 7px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    -1px 5px 7px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         -1px 5px 7px 0px rgba(50, 50, 50, 0.75);
+    position: fixed;
+    width: 100%;
+  }
+  main {
+    padding-top: 250px;
+  }
+  nav > ul {
+    padding: 0;
+    width: 100%;
+    list-style-type: none;
+  }
+  nav > ul > li {
+    margin: 0;
+    display: inline-block;
+  }
+  nav > ul > li > a {
+    padding: 0px 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #ffffff;
+  }
+  .button.contact {
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 21px;
+    text-transform: uppercase;
+    border: 2px solid #ffffff;
+    padding: 10px 20px;
+    margin-left: 15px;
+  }
+  .button.contact:hover {
+    background-color: #3f3047;
+    color: #ffffff;
+    border: 2px solid #3f3047;
+  }
+  header {
     text-align: unset;
     font-size: 18px;
   }
