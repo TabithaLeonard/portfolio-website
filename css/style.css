@@ -98,6 +98,7 @@ a.button{
   border: 2px solid #3f3047;
 }
 
+/* Header info */
 header {
   background-color: #086788;
   text-align: center;
@@ -108,18 +109,36 @@ header {
   position: fixed;
   width: 100%;
 }
+
 main {
   padding-top: 250px;
 }
+
+nav > ul {
+  padding: 0;
+  width: 100%;
+  list-style-type: none;
+}
+nav > ul > li {
+  margin: 0;
+  display: inline-block;
+}
+nav > ul > li > a {
+  padding: 0px 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #ffffff;
+}
+
 /* Layout styling */
 
 .container {
   padding: 0 15px;
 }
-
 .row {
   margin: 25px 0;
 }
+
 
 #hero h1 {
   text-align: start;
@@ -135,20 +154,19 @@ main {
   margin-top: 100px;
 }
 
+/* Footer Layout */
+
 #contact h3 {
   background-color: #086788;
   color: #ffffff;
   text-align: start;
-  font-family: 'lora', serif;
-  font-style: italic;
-  font-weight: 600;
-  padding-top: 10px;
+  font-weight: 500;
 }
-
 #contact {
   background-color: #086788;
   color: #ffffff;
-  text-align: start;
+  font-size: 18px;
+  text-align: end;
 }
 #contact a {
   color: #ffffff;
@@ -169,40 +187,43 @@ main {
 #contact .phonenumber {
   color: #ffffff;
 }
-
 #contact .phonenumber:hover {
   color: #3f3047;
 }
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.footer-row {
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-contact {
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.footer-socialicons {
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+/* Logo and Icons */
 
 .logo {
   max-width: 150px;
   max-height: 100px;
 }
 
-.icons {
+.icontools {
   width: 50px;
 }
 
 .icons2 {
   width: 75px;
 }
-
-nav > ul {
-  padding: 0;
-  width: 100%;
-  list-style-type: none;
-}
-nav > ul > li {
-  margin: 0;
-  display: inline-block;
-}
-nav > ul > li > a {
-  padding: 0px 15px;
-  text-transform: uppercase;
-  font-weight: 500;
-  color: #ffffff;
-}
-
 
 /* About Section layout */
 
