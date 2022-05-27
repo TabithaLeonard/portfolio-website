@@ -126,6 +126,7 @@ nav > ul > li > a {
   text-transform: uppercase;
   border: 2px solid #ffffff;
   padding: 10px 20px;
+  margin-left: 15px;
 }
 .button.contact:hover {
   background-color: #3f3047;
