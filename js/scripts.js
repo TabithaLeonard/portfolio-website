@@ -1,0 +1,1 @@
+console.log("Hi! Welcome to My Portfolio Website, take a look around.")
