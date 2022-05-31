@@ -60,7 +60,12 @@ img {
   display: block;
   width: 80%;
 }
-
+#chicthreads .image-grid p {
+  font-family: 'fira sans', sans-serif;
+  font-weight: 200;
+  color: #4A6369;
+  display: block;
+}
 /* Button & hyperlink styling */
 
 a {
@@ -247,6 +252,10 @@ nav > ul > li > a {
   display: flex;
   flex-direction: row;
 }
+.centeritems {
+  align-items: center;
+  justify-content: center;
+}
 .footer-row {
   align-items: center;
   justify-content: space-between;
@@ -322,7 +331,16 @@ nav > ul > li > a {
   font-weight: 200;
   color: #AB5852;
 }
-
+#chicthreads .image-grid p {
+  font-family: 'fira sans', sans-serif;
+  font-weight: 200;
+  color: #4A6369;
+  font-size: 24px;
+  text-align: center;
+}
+.chicmockup {
+  padding: 100px 0;
+}
 .chic-midfi-background {
   background-color: #E2D6A7;
   padding: 45px 0;
