@@ -306,19 +306,34 @@ nav > ul > li > a {
 
 /* About Section layout */
 
-#about h1 {
+h1.aboutheader {
   text-align: center;
   font-family: 'lora', serif;
   font-weight: 600;
+  width: 100%;
+  margin-top: 50px;
 }
 #about {
   margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
 }
 #story h2 {
-  text-align: center;
+  text-align: start;
   font-family: 'lora', serif;
   font-weight: 500;
 }
+#tools {
+  width: 100%;
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 
 
 /* Chic Threads Layout */
@@ -455,6 +470,7 @@ Main text regular 300: #3E5975;
 #usertestingbackground h1 {
   font-weight: 600;
   color: #ffffff;
+  margin-top: 0;
 }
 #usertestingbackground h3 {
   font-weight: 500;
@@ -577,7 +593,6 @@ Main text regular 300: #3E5975;
 
   #hero {
     text-align: start;
-    margin-top: 150px;
   }
   .col-md-6 {
     width: 50%;
@@ -706,6 +721,11 @@ Main text regular 300: #3E5975;
   }
   #hero {
     text-align: start;
+  }
+  #tools {
+    width: 100%;
+    margin: auto auto;
+    padding: 0 28%;
   }
   .col-lg-7 {
     width: 60%;
