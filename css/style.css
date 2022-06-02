@@ -80,6 +80,11 @@ a:hover, a:focus {
 a.button{
   color: #ffffff;
 }
+a.icon{
+  color: white;
+}
+
+
 .button {
   display: inline-block;
   background-color: #086788;
@@ -517,7 +522,6 @@ Main text regular 300: #3E5975;
   }
   nav {
     width: auto;
-    float: right;
   }
   nav > ul {
     padding: 0;
@@ -540,13 +544,10 @@ Main text regular 300: #3E5975;
   }
   .navtoggle.responsive li  {
     display: block;
+    padding: 10px 0;
   }
   .navtoggle.responsive nav {
     padding: 24px 0 0;
-  }
-  .navtoggle.responsive li  {
-    display: block;
-    padding: 10px 0;
   }
   .navtoggle.responsive li:last-child  {
     padding: 0 0 10px;
@@ -564,7 +565,6 @@ Main text regular 300: #3E5975;
     text-transform: uppercase;
     border: 2px solid #ffffff;
     padding: 10px 20px;
-    margin-left: 15px;
   }
   .button.contact:hover {
     background-color: #3f3047;
