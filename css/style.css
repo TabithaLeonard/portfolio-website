@@ -46,7 +46,6 @@ h4 {
 img {
   width: 100%;
 }
-
 .image-grid {
   display: flex;
   flex-direction: column;
@@ -54,18 +53,12 @@ img {
   justify-content: center;
   gap: 22px;
 }
-
 .image-grid img {
   flex: 1;
   display: block;
   width: 80%;
 }
-#chicthreads .image-grid p {
-  font-family: 'fira sans', sans-serif;
-  font-weight: 200;
-  color: #4A6369;
-  display: block;
-}
+
 /* Button & hyperlink styling */
 
 a {
@@ -109,26 +102,45 @@ a.button{
 header {
   background-color: #086788;
   font-size: 16px;
-  text-align: center;
-  padding: 10px 30px;
+  padding: 10px 30px 0;
   -webkit-box-shadow: -1px 5px 7px 0px rgba(50, 50, 50, 0.75);
   -moz-box-shadow:    -1px 5px 7px 0px rgba(50, 50, 50, 0.75);
   box-shadow:         -1px 5px 7px 0px rgba(50, 50, 50, 0.75);
   position: fixed;
   width: 100%;
 }
-
 main {
-  padding-top: 250px;
+  padding-top: 100px;
 }
 nav > ul {
   padding: 0;
   width: 100%;
   list-style-type: none;
-}
-nav > ul > li {
   margin: 0;
-  display: inline-block;
+}
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 20px;
+  font-size: 24px;
+  padding-right: 0;
+}
+.navtoggle.responsive li  {
+  text-align: center;
+  display: block;
+  padding: 10px 0;
+}
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+.navtoggle.responsive li:last-child  {
+  padding: 0 0 10px;
 }
 nav > ul > li > a {
   padding: 0px 15px;
@@ -144,14 +156,12 @@ nav > ul > li > a {
   text-transform: uppercase;
   border: 2px solid #ffffff;
   padding: 10px 20px;
-  margin-left: 15px;
 }
 .button.contact:hover {
   background-color: #3f3047;
   color: #ffffff;
   border: 2px solid #3f3047;
 }
-
 /* end of header */
 
 
@@ -276,8 +286,8 @@ nav > ul > li > a {
 /* Logo and Icons */
 
 .logo {
-  max-width: 150px;
-  max-height: 100px;
+  max-width: 75px;
+  max-height: 75px;
 }
 
 .icontools {
@@ -509,12 +519,62 @@ Main text regular 300: #3E5975;
     width: auto;
     float: right;
   }
+  nav > ul {
+    padding: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+  }
+  .navtoggle li:not(:last-child) {
+    display: none;
+  }
+  .navtoggle, .navtoggle.responsive {
+    position: relative;
+  }
+  .navtoggle li .icon {
+    position: absolute;
+    right: 0;
+    top: 20px;
+    font-size: 24px;
+    padding-right: 0;
+  }
+  .navtoggle.responsive li  {
+    display: block;
+  }
+  .navtoggle.responsive nav {
+    padding: 24px 0 0;
+  }
+  .navtoggle.responsive li  {
+    display: block;
+    padding: 10px 0;
+  }
+  .navtoggle.responsive li:last-child  {
+    padding: 0 0 10px;
+  }
+  nav > ul > li > a {
+    padding: 0px 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #ffffff;
+  }
+  .button.contact {
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 21px;
+    text-transform: uppercase;
+    border: 2px solid #ffffff;
+    padding: 10px 20px;
+    margin-left: 15px;
+  }
+  .button.contact:hover {
+    background-color: #3f3047;
+    color: #ffffff;
+    border: 2px solid #3f3047;
+  }
   body {
     font-size: 18px;
   }
-  main {
-    padding-top: 150px;
-  }
+
   #hero {
     text-align: start;
     margin-top: 150px;
@@ -586,12 +646,17 @@ Main text regular 300: #3E5975;
     width: 100%;
   }
   main {
-    padding-top: 250px;
+    padding-top: 90px;
+  }
+  .logo {
+    max-width: 100px;
+    max-height: 100px;
   }
   nav > ul {
     padding: 0;
     width: 100%;
     list-style-type: none;
+    margin: 1em 0;
   }
   nav > ul > li {
     margin: 0;
@@ -603,6 +668,13 @@ Main text regular 300: #3E5975;
     font-weight: 500;
     color: #ffffff;
   }
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+  .navtoggle li:last-child {
+    display: none;
+  }
+
   .button.contact {
     background-color: transparent;
     color: #ffffff;
@@ -630,7 +702,7 @@ Main text regular 300: #3E5975;
     font-size: 21px;
   }
   main {
-    padding-top: 150px;
+    padding-top: 90px;
   }
   #hero {
     text-align: start;
