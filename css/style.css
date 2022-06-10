@@ -611,6 +611,11 @@ Main text regular 300: #3E5975;
     text-align: unset;
   }
 
+  main {
+    padding-top: 100px;
+  }
+  /* stylelint-disable-next-line no-eol-whitespace */
+
   nav {
     width: auto;
   }
@@ -756,7 +761,7 @@ Main text regular 300: #3E5975;
   }
 
   main {
-    padding-top: 90px;
+    padding-top: 150px;
   }
 
   .logo {
