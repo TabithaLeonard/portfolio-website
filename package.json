@@ -1,0 +1,28 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "css-lint": "npx stylelint '**/*.css'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TabithaLeonard/portfolio-website.git"
+  },
+  "author": "tabitha",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/TabithaLeonard/portfolio-website/issues"
+  },
+  "homepage": "https://github.com/TabithaLeonard/portfolio-website#readme",
+  "devDependencies": {
+    "eslint": "^8.17.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.2",
+    "eslint-plugin-promise": "^6.0.0",
+    "stylelint": "^14.9.0",
+    "stylelint-config-standard": "^26.0.0"
+  }
+}
